@@ -1,0 +1,37 @@
+# ─────────────────────────────────────────────────
+# PricePulse - Python Dependencies
+# Compatible with Python 3.10+
+# Install with: pip install -r requirements.txt
+# ─────────────────────────────────────────────────
+
+# ── Core Framework ────────────────────────────────
+streamlit>=1.32.0,<2.0.0           # Main web framework
+streamlit-extras>=0.3.6            # Additional Streamlit components
+
+# ── Data Processing ────────────────────────────────
+pandas>=2.1.0,<3.0.0               # DataFrames and data manipulation
+numpy>=1.26.0,<2.0.0               # Numerical computing
+
+# ── Visualisation ──────────────────────────────────
+plotly>=5.18.0,<6.0.0              # Interactive charts and graphs
+
+# ── Machine Learning ───────────────────────────────
+scikit-learn>=1.4.0,<2.0.0         # TF-IDF, cosine similarity, recommendations
+
+# ── Database ───────────────────────────────────────
+# SQLite is included in Python's standard library - no extra package needed
+
+# ── AI / OpenAI Integration ────────────────────────
+openai>=1.12.0,<2.0.0              # OpenAI API client (optional - for AI Assistant)
+
+# ── Security ───────────────────────────────────────
+# hashlib is included in Python's standard library
+
+# ── Utilities ──────────────────────────────────────
+python-dotenv>=1.0.0               # .env file support for configuration
+requests>=2.31.0,<3.0.0            # HTTP client (for potential API integrations)
+
+# ── Development Tools (optional) ───────────────────
+# pytest>=7.4.0                    # Testing framework
+# black>=23.0.0                    # Code formatter
+# flake8>=6.1.0                    # Linter
