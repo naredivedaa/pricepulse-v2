@@ -1,0 +1,6 @@
+user_id,username,email,full_name,city,pincode,created_at,last_login,is_active
+U001,rahul_sharma,rahul.sharma@email.com,Rahul Sharma,Mumbai,400001,2024-01-01,2024-01-15,True
+U002,priya_patel,priya.patel@email.com,Priya Patel,Delhi,110001,2024-01-02,2024-01-14,True
+U003,amit_kumar,amit.kumar@email.com,Amit Kumar,Bangalore,560001,2024-01-03,2024-01-15,True
+U004,sunita_gupta,sunita.gupta@email.com,Sunita Gupta,Chennai,600001,2024-01-04,2024-01-13,True
+U005,vikram_singh,vikram.singh@email.com,Vikram Singh,Hyderabad,500001,2024-01-05,2024-01-12,True
