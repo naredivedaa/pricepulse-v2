@@ -1,0 +1,26 @@
+[server]
+headless = true
+address = "0.0.0.0"
+port = 8501
+enableCORS = false
+enableXsrfProtection = false
+
+[browser]
+gatherUsageStats = false
+serverAddress = "localhost"
+serverPort = 8501
+
+[theme]
+base = "dark"
+primaryColor = "#7C3AED"
+backgroundColor = "#0F0F1A"
+secondaryBackgroundColor = "#1E103A"
+textColor = "#E2E8F0"
+font = "sans serif"
+
+[runner]
+fastReruns = true
+enforceSerializableSessionState = false
+
+[logger]
+level = "warning"
