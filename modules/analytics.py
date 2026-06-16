@@ -314,7 +314,7 @@ def build_platform_delivery_radar() -> go.Figure:
             name=f"{cfg.get('emoji','')} {cfg.get('display', platform)}",
             line=dict(color=cfg.get("color", "#7C3AED"), width=2),
             fill="toself",
-            fillcolor=cfg.get("color", "#7C3AED") + "22",
+            fillcolor="rgba(124, 58, 237, 0.15)",
         ))
 
     fig.update_layout(
